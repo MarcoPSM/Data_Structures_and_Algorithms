@@ -2,7 +2,7 @@ class Empty(Exception):
     pass
 
 
-class LinkedStack:
+class LinkedQueue:
     class _Node:
         __slots__ = '_element', '_next'
 
